@@ -43,10 +43,6 @@ class Chitter < Sinatra::Base
     erb :feed
   end
 
-  # get '/feed/new' do 
-  #   erb :new_peep
-  # end
-
   post '/feed' do 
     peep = Peep.new(message: params[:message],
                     username: session[:username],
@@ -77,21 +73,6 @@ class Chitter < Sinatra::Base
     end
   end
 
-  # get '/sessions/new' do
-  #   erb :new_sessions
-  # end
-
-  # post '/sessions' do
-  #   user = User.authenticate(params[:email], params[:password])
-  #   if user
-  #     session[:user_id] = user.id
-  #     redirect('/feed')
-  #   else
-  #     flash.now[:errors] = ['The email or password is incorrect']
-  #     erb :new_sessions
-  #   end
-  # end
-
   delete '/sessions' do
     session.clear
     redirect('/goodbye')
@@ -100,8 +81,6 @@ class Chitter < Sinatra::Base
   get ('/goodbye') do
       erb :goodbye
   end
-
-
 
   # start the server if ruby file executed directly
   run! if app_file == $0

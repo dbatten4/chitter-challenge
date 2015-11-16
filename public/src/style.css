@@ -1,0 +1,172 @@
+body {
+  background-color: #fbfbff;
+  font-family: 'Helvetica', 'Lucida Grande', sans-serif;
+}
+
+.central {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #99ccff;
+}
+
+#sign_up {
+  width: 8em;
+  height: 2em;
+}
+
+#sign_in {
+  width: 13.5em;
+  height: 2em;
+}
+
+#sign_up_page_button {
+  width: 11.33em;
+  height: 1.8em;
+}
+
+.title {
+  font-weight: bold; 
+  font-size: 300%; 
+  padding: 5px;
+}
+
+.text_field {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 120%;
+  border-radius: 4px
+}
+
+.sign_up_page {
+  font-size: 100%;
+}
+
+.title_logo {
+  margin-left: 10px; 
+  font-weight: bold; 
+  font-size: 250%; 
+  float: left;
+}
+
+.sign_in_form {
+  margin-bottom: 5px; 
+  text-align: center; 
+  font-size: 120%; 
+  border-radius: 4px;
+}
+
+.user_box {
+  position: fixed; 
+  right: 5px; 
+  padding: 5px;
+}
+
+.padded {
+  padding: 8px 40px;
+}
+
+#username_box {
+  color: black;
+  border: solid black;
+  background: #f5faff;   
+}
+
+#sign_out_feed {
+  margin-top: 5px;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.feed_peep_box {
+  font-size: 110%; 
+  border-image: none; 
+  border-radius: 6px; 
+  border-style: none solid solid none; 
+  border-width: medium 1px 1px medium; 
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12); 
+  outline: none;
+}
+
+#peep_button {
+  position: absolute;
+  right: 110px;
+  bottom: -35px;
+  left: 5px;
+  width: 9.3em;  
+  height: 2.2em; 
+}
+
+.peep_container {
+  position: absolute; 
+  left: 32%; 
+  margin-right; -50%; 
+  min-height: 100px; 
+  width: 500px;
+}
+
+.peep_card {
+  text-align: center;
+  display: inline-block;
+  width: 415px;
+  height: 170px;
+  background-image: url('/images/rsz_chitter-box.png');
+  background-repeat: no-repeat;
+  word-wrap: break-word;
+}
+
+.peep_header {
+  margin-top: 10px; 
+  margin-left: 10px; 
+  font-size: 90%; 
+  text-align: left; 
+  font-weight: bold;
+}
+
+.peep_username {
+  font-size: 80%; 
+  color: grey; 
+  display: inline-block; 
+  font-weight: normal;
+}
+
+.peep_time {
+  font-size: 80%; 
+  color: black; 
+  display: inline-block; 
+  font-weight: normal; 
+  float: right; 
+  margin-right: 12px; 
+  font-weight: bold;
+}
+
+.peep_message {
+  height: 110px; 
+  width: 390px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 5px 5px 5px 10px; 
+  font-size: 110%; 
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.goodbye {
+  width: 10em;
+  height: 2em;
+}
+
+
